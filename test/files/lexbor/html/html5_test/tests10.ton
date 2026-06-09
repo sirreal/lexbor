@@ -477,14 +477,14 @@
     /* Test number: 23 */
     {
         "data": $DATA{ ,12}
-            <!DOCTYPE html><body xlink:href=foo><svg xlink:href=foo></svg>
+            <!DOCTYPE html><body xlink:href=foo><svg xlink:href=qual href=plain></svg>
         $DATA,
         "result": $DATA{ ,12}
             <!DOCTYPE html>
             <html>
               <head>
               <body xlink:href="foo">
-                <svg:svg xlink:href="foo">
+                <svg:svg xlink:href="qual" href="plain">
         $DATA
     },
     /* Test number: 24 */
